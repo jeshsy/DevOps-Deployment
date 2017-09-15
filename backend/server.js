@@ -12,7 +12,7 @@ const app = express();
 const PORT = 8080;
 const HOST = '0.0.0.0';
 const server = app.listen(PORT, HOST, () => {
-  console.log('server online');
+  console.log(`server online on Port ${PORT}`);
 });
 
 /**************************************
